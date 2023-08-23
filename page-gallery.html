@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+    <!-- Document Meta
+    ============================================= -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--IE Compatibility Meta-->
+    <meta name="author" content="zytheme" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Elegant Restaurant & Cafe Html5 Template by zytheme">
+    <link href="assets/images/favicon/favicon.png" rel="icon">
+
+    <!-- Fonts
+    ============================================= -->
+    <link href='http://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,700,900%7CRuthie%7CAbril+Fatface' rel='stylesheet' type='text/css'>
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="assets/css/external.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Sprizzami | Italian Foodtruck</title>
+</head>
+
+<body>
+    <div class="preloader">
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="wrapper clearfix">
+        <header id="navbar-spy" class="header header-1 header-transparent header-fixed">
+            <nav id="primary-menu" class="navbar navbar-fixed-top">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="logo" href="index.html">
+                            <img class="logo-light" src="assets/images-limins/logo no fondo.png"
+                                style="height: 150px; width: 150px;" alt="Sprizzami Logo" draggable="false">
+                            <!-- <img class="logo-dark" src="assets/images-limins/logo no fondo.png" alt="Sprizzami Logo"
+                                draggable="false"> -->
+                            <h1 class="logo-dark" style="margin-top: 30px;">Sprizzami</h1>
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav nav-pos-right navbar-left">
+                            <!-- Home -->
+                            <li class="has-dropdown mega-dropdown active">
+                                <a href="index.html" class="dropdown-toggle menu-item">home</a>
+                            </li>
+                            <!-- About -->
+                            <li class="has-dropdown">
+                                <a href="page-about.html" class="dropdown-toggle menu-item">About</a>
+                            </li>
+                            <!-- Gallery -->
+                            <li class="has-dropdown">
+                                <a href="page-gallery.html" class="dropdown-toggle  menu-item">Gallery</a>
+                            </li>
+                            <!-- Contact Menu-->
+                            <li class="has-dropdown">
+                                <a href="page-contacts.html" class="dropdown-toggle menu-item">Contact</a>
+                            </li>
+                            <!-- Module Social -->
+                            <div class="module module-social pull-left">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                            </div>
+                            <!-- .module-social end -->
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+
+        </header>
+
+<!-- Page Title #1
+============================================= -->
+<section id="page-title" class="page-title bg-overlay bg-parallax bg-overlay-gradient">
+    <div class="bg-section">
+        <img src="assets/images/page-title/15.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="title title-1 text-center">
+                    <div class="title--content">
+                        <div class="title--subtitle">Our Passion</div>
+                        <div class="title--heading">
+                            <h1>Our Gallery</h1>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">about</a></li>
+                        <li class="active">Gallery</li>
+                    </ol>
+                    <div class="divider--shape-1down"></div>
+                </div>
+                <!-- .title end -->
+            </div>
+            <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #page-title end -->
+
+<!-- Portfolio 5 Column
+============================================= -->
+<section id="portfolio" class="portfolio portfolio-gallery portfolio-5col pt-80 bg-white">
+    <div class="container-fluid pr-0 pl-0">
+        <div class="row">
+            <!-- Portfolio Filter
+			============================================= -->
+            <div class="col-xs-12 col-sm-12 col-md-12 portfolio-filter">
+                <ul class="list-inline mb-0">
+                    <li><a class="active-filter" href="#" data-filter="*">All</a></li>
+                    <li><a href="#" data-filter=".filter-people">People</a></li>
+                    <li><a href="#" data-filter=".filter-resturant">Festivals</a></li>
+                    <!-- festival is filter-restaurant -->
+                    <li><a href="#" data-filter=".filter-chefs">Pizzas</a></li>
+                    <!-- pizzas is filter-chefs -->
+                </ul>
+            </div>
+            <!-- .Portfolio-filter end -->
+        </div>
+        <div id="portfolio-all" class="row-no-padding">
+            <!-- Portfolio #1 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/20230603_164210.jpg" alt="Sprizzami - Pinsa ai prosciutto e funghi.">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/20230603_164210.jpg" title="Sprizzami - Pinsa ai prosciutto e funghi"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #2 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-resturant filter-people">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/caravan/caravan 1.jpg" alt="Sprizzami - Friends eating in festival">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/caravan/caravan 1.jpg" title="Sprizzami - Friends eating in festival"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #3 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-resturant">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/caravan/20230603_214955.jpg" alt="Sprizzami - Caravan and Menu">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/caravan/20230603_214955.jpg" title="Sprizzami - Caravan and Menu"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #4 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-people">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/IMG-20230324-WA0025.jpg" alt="Sprizzami's owner, on his duties!">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/IMG-20230324-WA0025.jpg" title="Sprizzami's owner, on his duties!"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #5 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/pizzas/20230604_182512.jpg" alt="Sprizzami - Capricciosa">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/pizzas/20230604_182512.jpg" title="Sprizzami - Capricciosa"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #6 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-people">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/IMG-20230604-WA0020.jpg" alt="Sprizzami's Photographer">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/IMG-20230604-WA0020.jpg" title="Sprizzami's Photographer"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #7 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/pizzas/dd.jpg" alt="Sprizzami - Pizza Prosciutto">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/pizzas/dd.jpg" title="Pizza Prosciutto"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #8 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-resturant">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins//new site pic/caravan/s.jpg" alt="Sprizzami's Caravan">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins//new site pic/caravan/s.jpg" title="Sprizzami's Caravan"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #9 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/DSC_0976 copy.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/DSC_0976 copy.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #10 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-people">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/IMG-20230613-WA0123.jpg" alt="Amici">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/IMG-20230613-WA0123.jpg" title="Amici"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #11 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/DSC_0999.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/DSC_0999.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- . portfolio-item end -->
+
+            <!-- Portfolio #12 -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/DSC_1000.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/DSC_1000.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <!-- Portfolio #13 -->
+            <!-- . portfolio-item end -->
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/DSC_1016 copy.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/DSC_1016 copy.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/DSC_1030 copy.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/DSC_1030 copy.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-resturant">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/caravan/DSC_1036 xz.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/caravan/DSC_1036 xz.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/DSC_1027 copy.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/DSC_1027 copy.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/f.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/f.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-resturant">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/caravan/caravan 2.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/caravan/caravan 2.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/f1.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/f1.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/f2.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/f2.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-resturant">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/caravan/caravan.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/caravan/caravan.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/WhatsApp Image 2023-01-02 at 16.26.22.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/WhatsApp Image 2023-01-02 at 16.26.22.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/f4.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/f4.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/f5.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/f5.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-people">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/caravan/wead.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/caravan/wead.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/f3.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/f3.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/f7.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/f7.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/fdf.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/fdf.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/ik.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/ik.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/IMG_20230601_152528_083.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/IMG_20230601_152528_083.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 portfolio-item filter-chefs">
+                <div class="portfolio--img">
+                    <img src="assets/images-limins/new site pic/pizzas/fdf.jpg" alt="Dish Image">
+                    <div class="portfolio--hover">
+                        <div class="portfolio--action">
+                            <div class="pos-vertical-center">
+                                <div class="portfolio--zoom">
+                                    <a class="img-gallery-item" href="assets/images-limins/new site pic/pizzas/f3.jpg" title="Dish Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .Portfolio-action end -->
+                    </div>
+                    <!-- .Portfolio-hover end -->
+                </div>
+                <!-- .Portfolio-img end -->
+            </div>
+            
+        </div>
+        <!-- .row end -->
+       
+    </div>
+    <!-- .container-fluid end -->
+</section>
+<!-- #portfolio end -->
+<!-- footer#1
+============================================= -->
+<footer id="footer" class="footer footer-1 text-center">
+    <div class="divider--shape-dark"></div>
+    <!-- Widget Section
+============================================= -->
+    <div class="footer--widget text--center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="footer--widget-content" style="margin-top: 50px;">
+                        <h3>Follow Us</h3>
+                        <div class="footer--social-icons">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                        </div>
+                        <!-- .social-icons end -->
+                    </div>
+                </div>
+                <!-- .col-md-4 end -->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="footer--widget-content" style="margin-top: 50px;">
+                        <p>Sprizzami is the perfect place to enjoy fine food and great cocktails with excellent
+                            music, in comfortable atmospheric surroundings. Come and try it.</p>
+                    </div>
+                </div>
+                <!-- .col-md-3 end -->
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <img src="assets/images-limins/logo no fondo.png" height="200px" alt="Sprizzami logo">
+
+                    </div>
+                </div>
+                <!-- .col-md-3 end -->
+            </div>
+        </div>
+        <!-- .container end -->
+    </div>
+</div>
+<!-- #wrapper end -->
+
+<!-- Footer Scripts
+============================================= -->
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/functions.js"></script>
+</body>
+
+</html>
