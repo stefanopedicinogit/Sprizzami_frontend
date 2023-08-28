@@ -245,7 +245,7 @@
                                             contactPhone: form.contactPhone.value,
                                             contactMessage: form.contactMessage.value,
                                         };
-                                        fetch('http://localhost:3001/send-email', {
+                                        fetch('https://sprizzami-express-emailer-backend.onrender.com/send-email', {
                                             method: 'POST',
                                             headers: {
                                                 'Content-Type': 'application/json',
